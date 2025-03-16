@@ -1,7 +1,11 @@
-import Onboarding from "../components/Onboarding";
+import ExpandableText from "../components/ExpandableText";
 
 const PlaygroundPage = () => {
-  return <Onboarding />;
+  return <ExpandableText
+    limit={5}
+    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates!"
+
+  />;
 };
 
 export default PlaygroundPage;
